@@ -1,0 +1,12 @@
+Carca de la línea 43
+Reemplazar:
+if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
+	$this->errors[] = Tools::displayError('Invalid email address.');
+
+
+Por:
+session_start();
+if ($_SESSION['captcha'] != $_POST['captcha'])			
+	$this->errors[] = Tools::displayError('Error en captcha.');
+else if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
+	$this->errors[] = Tools::displayError('Invalid email address.');

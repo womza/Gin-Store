@@ -1,0 +1,22 @@
+2015-04-07 : 19:27:26 Register hook footer
+2015-04-07 : 19:27:26 Register hook postUpdateOrderStatus
+2015-04-07 : 19:27:26 Register hook paymentTop
+2015-04-07 : 19:27:26 Register hook addproduct
+2015-04-07 : 19:27:26 Register hook adminOrder
+2015-04-07 : 19:27:26 Register hook home
+2015-04-07 : 19:27:26 Register hook backOfficeHeader
+2015-04-07 : 19:27:26 Register hook newOrder
+2015-04-07 : 19:27:26 Register hook updateOrderStatus
+2015-04-07 : 19:27:26 Register hook orderConfirmation
+2015-04-07 : 19:27:26 Register hook displayAdminHomeStatistics
+2015-04-07 : 19:27:26 Register hook actionAdminControllerSetMedia
+2015-04-07 : 19:27:26 Register hook actionObjectUpdateAfter
+2015-04-07 : 19:27:26 Register hook dashboardZoneTwo
+2015-04-07 : 19:27:27 Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2015-04-07 : 19:27:27 API Error : token invalide.
+2015-04-07 : 19:27:27 Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2015-04-07 : 19:27:27 API Error : token invalide.
+2015-04-07 : 19:27:27 Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2015-04-07 : 19:27:27 API Error : No feeds
+2015-04-07 : 19:27:27 Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2015-04-07 : 19:27:27 API Error : token invalide.

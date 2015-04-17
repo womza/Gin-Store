@@ -1,0 +1,15 @@
+Easy Google Adsense - Add google adsense advertising in your shop
+Author: Jose Aguilar
+Contact: modulos-prestashop@jose-aguilar.com
+
+-----------------------------------------
+Change history for Easy Google Adsense
+----------------------------------------- 
+
+VERSION 1.0.3 (04/03/2015)
+ * ADD: changelog.txt
+ * FIX: float left container in Google Chrome
+ * FIX: cast data input pSQL, int, string
+
+Version 1.0.0 (17/01/2015)
+ * Original release

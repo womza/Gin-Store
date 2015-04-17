@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>trustedshops</name>
+	<displayName><![CDATA[Soluciones de confianza Trusted Shop]]></displayName>
+	<version><![CDATA[2.2.3]]></version>
+	<description><![CDATA[Fomente la confianza en su tienda en l&iacute;nea con el sello de calidad Trusted Shops, la protecci&oacute;n al comprador y la puntuaci&oacute;n de los usuarios.]]></description>
+	<author><![CDATA[silbersaiten]]></author>
+	<tab><![CDATA[payment_security]]></tab>
+	<confirmUninstall><![CDATA[¿Está seguro de que desea suprimir esta configuración?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>nuevogrutinetimport</name>
+            <displayName><![CDATA[Importacion y actualizacion del multicatalogo de GRUTINET]]></displayName>
+            <version><![CDATA[1.7]]></version>
+            <description><![CDATA[Importa productos del multicatalogo de Grutinet]]></description>
+            <author><![CDATA[Informax]]></author>
+            <tab><![CDATA[administration]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+        </module>

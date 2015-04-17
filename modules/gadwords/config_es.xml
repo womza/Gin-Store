@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>gadwords</name>
+	<displayName><![CDATA[Google AdWords]]></displayName>
+	<version><![CDATA[1.3.4]]></version>
+	<description><![CDATA[&iquest;Quieres ser m&aacute;s visible en Google y atraer a nuevos clientes? Utiliza nuestro C&oacute;digo promocional de 75&euro; en Google Adwords!]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

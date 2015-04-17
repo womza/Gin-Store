@@ -1,0 +1,81 @@
+/* Block categories */
+
+
+
+
+#categories_block_left li {border-bottom:1px dotted #eee}
+#categories_block_left li.last {border:none;}
+#categories_block_left li a {
+    display:block;
+    padding:7px 11px 5px 22px;
+    color:#333;
+    background:url(../img/arrow_right_2.png) no-repeat 10px 10px transparent;
+	
+}
+
+tr.subitem > td:first-child + td {
+    padding-left: 10px;
+}
+
+
+
+#left_column div#categories_block_left div.block_content, #right_column div#categories_block_left div.block_content {
+	background:#fff;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px; 
+}
+
+#left_column div#categories_block_left h4, #right_column div#categories_block_left h4 {
+	background-image: url('../../../img/sprite-all.png');
+	background-position: 0px -132px;
+	border:none;
+	height:16px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #006AD2;
+}
+
+#categories_block_left .tree li.last { border:none }
+#categories_block_left .tree ul { padding: 2px 0 0 }
+#categories_block_left .tree li li {
+	padding: 1px 0 1px 15px;
+	background: none;
+	font-size: 11px;
+	font-weight: normal
+}
+#categories_block_left .tree li li.last { padding-bottom: 0; border:none }
+#categories_block_left .tree li li li {
+	padding-left: 15px;
+	font-size: 9px
+}
+#categories_block_left .tree a {
+	color: #555;
+	font-weight:bold;
+}
+#categories_block_left .tree a:hover { text-decoration: none; color: #fb0012 }
+#categories_block_left ul.tree a.selected {
+	color: #fb0012;
+	font-weight: bold
+}
+
+#categories_block_left ul.tree li {
+	background: none
+}
+
+#categories_block_left span.grower {
+	display: block;
+	float: right;
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	width: 9px;
+	height: 15px;
+	margin: 9px 5px 0 -12px!important;
+	margin: 0 0 0 -8px;
+	padding: 0
+}
+#categories_block_left span.OPEN { background-image: url('../../../img/icon/less.png') }
+#categories_block_left span.CLOSE { background-image: url('../../../img/icon/more.png') }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>referralprogram</name>
+	<displayName><![CDATA[Programa de apadrinamiento de clientes]]></displayName>
+	<version><![CDATA[1.6.3]]></version>
+	<description><![CDATA[Integrar un programa de apadrinamiento en su tienda]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall><![CDATA[Todos los datos relativos al programa de apadrinamiento. ¿Está seguro de que desea desinstalarlo?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,193 @@
+@charset "utf-8";
+body {
+	font: 14px/21px Arial,Helvetica,sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+	padding-top: 15px;
+}
+
+h1 {
+	font-size:27px;
+	font-weight:normal
+}
+h2 {
+	font-size:22px;
+	font-weight:normal;
+	color:#666;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+.header {
+	width: 100%;
+	margin: auto 0;
+	height:65px;
+	background-color:#fff;
+	border-bottom: solid 1px #d4d4d4
+}
+.header-inner {
+	margin:0 auto;
+	width:1200px;
+}
+.header-logo {
+	background:url("../img/logo.png") no-repeat scroll 0 0 #fff;
+	width:250px;
+	height:50px;
+	float:left;
+	text-indent:-9999px
+}
+.header-title {
+	padding-top:9px;
+	position:relative;
+	float:left;
+}
+/* ~~ this fixed width container surrounds all other divs ~~ */
+.container {
+	width: 1200px;
+	margin: 20px auto 0; 
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+
+.sidebar1 {
+	float: left;
+	width: 250px;
+	background-color: none;
+	padding-bottom: 10px;
+	position:fixed;
+}
+.content {
+	background-color: #FFF;
+	padding: 10px; 
+	width: 900px;
+	float: right;
+	border:solid 1px #d4d4d4;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; 
+	margin-bottom: 15px; 
+	
+}
+ul.nav li {
+	border-bottom: 1px solid #373547; /* this creates the button separation */
+	border-top: 1px solid #373547;
+	color: #FFF;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+ul.nav a, ul.nav a:visited { 
+	font-size:15px;
+	line-height:26px;
+	font-weight:normal;
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	text-decoration: none;
+	color: #FFF;
+	background-color: #1B1A23;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #6FAD00;
+	color: #FFF;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.warning {
+	background: url("../img/warning.png") no-repeat scroll 15px center #f8f8f8;
+	min-height:50px;
+	padding-left: 80px;
+	padding-top:30px;
+	width:790px;
+	margin: 0 auto;
+	color:#000;
+	border:solid 1px #d4d4d4;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size:15px;
+	font-weight:bold
+}
+.info {
+	background: url("../img/info.png") no-repeat scroll 15px center #f8f8f8;
+	min-height:50px;
+	padding-left: 80px;
+	padding-top:30px;
+	width:790px;
+	margin: 0 auto;
+	color:#000;
+	border:solid 1px #d4d4d4;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size:15px;
+	font-weight:bold
+}
+.videoguide {
+	float:left;
+	padding:25px 30px 50px 85px;
+	width:335px;
+	opacity:0.8;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.videoguide:hover {
+	opacity:1;
+}

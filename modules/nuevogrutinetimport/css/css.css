@@ -1,0 +1,129 @@
+.tablaNuevoGrutinet {
+    width: 100%;
+}
+.externalImport li{
+    list-style:none;
+    margin-bottom:5px;
+}
+.selectExternalImport {
+    margin-left:10px;
+}
+.cabeceraSubtabla td{
+    background-color: #E3D6BA;
+    font-weight: bold;
+}
+.nuevoGrutinetImportFile p {
+    margin-bottom: 10px;
+}
+.nuevoGrutinetImportFile td {
+    background-color: #E3D6BA;
+    font-weight: bold;
+    color:#FFF;
+}
+.listaCheckNuevoGrutinet label {
+    line-height: 12px;
+    width: 250px;
+}
+
+.listaCantidadesNuevoGrutinet li label {
+    width: 320px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+.listaCheckImporter label {
+    line-height: 12px;
+    /*width: 70%;*/
+}
+
+.listaCheckImporterCategorias {
+    list-style:none;
+}
+
+.listaCheckImporterCategorias label {
+    line-height: 12px;
+    width: 70%;
+}
+
+.listaCheckImporter, .listaCheckImporter ul , .listaCantidadesNuevoGrutinet ul{
+    list-style: none;
+}
+.listaCheckImporter li{
+    padding: 5px;
+}
+#menuTab4Sheet ul, #menuTab6Sheet ul, #menuTab7Sheet ul, .listaLicencia{
+    list-style: none;
+}
+.listaLicencia input[type="text"] {
+    width: 250px;
+}
+.icon-AdminInformax:before {
+     content: "\f085";
+}
+
+.filtroFechas ul {
+    list-style: none;
+}
+
+.tabItem {
+    width: 90%;
+}
+
+.tablaImportProductos {
+    width: 100%;
+}
+.subListaCheckNuevoGrutinet li {
+    float: left;
+}
+
+.acordeon, .acordeonInterno{ 
+    font-family: sans-serif; 
+    margin: 0;
+    position:relative;
+}
+.acordeon > dl{ margin: 60px auto; }
+.acordeon dt, .acordeon dd,  .acordeonInterno dt,  .acordeonInterno dd{ padding: 10px; }
+//.acordeon dt{ background: #333333; color: white; border-bottom: 1px solid #141414; border-top: 1px solid #4E4E4E; cursor: pointer; }
+//.acordeon dd{ background: #F5F5F5; line-height: 1.6em; }
+
+.acordeon dt, 
+.acordeonInterno dt{
+    background: #efefef; 
+    color: #000; 
+    border-bottom: 1px solid #cccccc; 
+    border-top: 1px solid #cccccc; 
+    cursor: pointer;
+}
+.acordeon dd
+, .acordeonInterno dd
+{line-height: 1.6em;margin-left:0; }
+
+.acordeon dd ul
+, .acordeonInterno dd ul
+{list-style: none; }
+
+.acordeon dt.activo, .acordeonInterno dt.activo, dt:hover{ background: #fff6d3; }
+//.acordeon dt:before{ content: url("../css/right.png"); margin-right: 10px; }
+//.acordeon dt.activo:before{ content: url("../css/down.png"); }
+
+.acordeon dt
+, .acordeonInterno dt{ 
+    background-image: url("../css/right.png");
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+.acordeon dt.activo
+, .acordeonInterno dt.activo{ 
+    background-image: url("../css/down.png");
+    background-position: 14px 9px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+
+}
+.acordeon input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 5px;
+    padding: 3px;
+}

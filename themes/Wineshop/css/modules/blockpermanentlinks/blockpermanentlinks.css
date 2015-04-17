@@ -1,0 +1,34 @@
+/* block top links */
+ul#header_links {
+	list-style-type: none;
+	float: right;
+}
+#header_links li {
+	float: left;
+	padding: 0 8px;
+	border:none;
+	line-height:11px;
+}
+#header_links li:first-child {border:none;}
+#header_links a {text-decoration: none; color:#333}
+#header_links a:hover {text-decoration:underline; color:#ccc}
+
+/*block permanent links right and left columns*/
+#permanent_links div {border-bottom: 1px solid #eee}
+#permanent_links div a {
+	display: block;
+	padding: 7px 11px 5px 22px;
+	color: #333;
+	background:url(img/arrow_right_2.png) no-repeat 10px 10px;
+}
+
+/* block footer links */
+ul#footer_links{
+	clear:both;
+	text-align: center;
+	padding-bottom:6px
+}
+ul#footer_links li{
+	display: inline;
+	padding:0 10px
+}

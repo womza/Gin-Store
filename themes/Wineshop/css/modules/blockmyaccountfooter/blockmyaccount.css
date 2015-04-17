@@ -1,0 +1,39 @@
+/* block myaccount */
+.myaccount ul {margin-bottom:10px}
+.myaccount li {border-bottom: 1px solid #eedba8}
+.myaccount li a {
+   display: block;
+   padding: 7px 11px 5px 22px;
+   color: #333;
+   text-shadow: 1px 1px 0 #fdf6e3;
+}
+.myaccount p.logout {
+	padding-bottom:0;
+	font-weight:bold;
+	text-align:center
+}
+
+
+/* block myaccount in footer */
+#footer .myaccount {padding:15px 10px;}
+#footer .myaccount h4 {background: none;}
+#footer .myaccount .logout {display:none;}
+#footer .myaccount h4 {
+	padding:0 0 10px 0;
+	background:#333
+}
+#footer .myaccount ul {margin-bottom:0}
+#footer .myaccount li {border-bottom:none}
+#footer .myaccount li a {
+   display: block;
+	padding:0;
+   color: #fff;
+   background: none
+}
+#footer .myaccount li.lnk_wishlist img {display:none
+}
+
+#footer .myaccount .block_content {
+	border:none;
+	background:none
+}

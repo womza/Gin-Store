@@ -1,0 +1,59 @@
+/*/////////////////////////////////////////////////////////////////
+///////                  DialogKutesan                      ///////
+///////             PrestaShop Tools Module                 ///////
+///////                                                     ///////
+///////               CREATED BY :  KUTESAN                 ///////
+///////                  MADE IN : SPAIN                    ///////
+///////  TESTED WITH THE VERSIONS: 1.2                      ///////
+///////             CREATED DATE : 02 - JUNE - 2009         ///////
+///////                  LICENSE : CopyLeft                 ///////
+///////              AUTOR'S WEB :                          ///////
+///////                                                     ///////
+/////////////////////////////////////////////////////////////////*/
+
+
+#question {
+
+ background-color:trasparent;
+ color: #000;
+ font-size: 14px;
+ 
+
+}
+
+#question #dk_title{
+background-color: trasparent;
+text-align: center;
+color: #dd4545;
+font-size: 24px;
+
+}
+
+#blockUI blockMsg blockPage{
+width: 800px;
+
+}
+
+#question input{
+background: transparent url(../img/button-dialog.gif);
+height: 20px;
+width: 122px;
+color: #fff;
+font-weight: bold;
+}
+
+#dk_languages_block ul#dk_languages {
+	float: left;
+	height: 1.5em;
+	width: 8.6em;
+	margin-left: 10px;
+}
+#dk_languages_block ul#dk_languages li {
+	float:left;
+	margin-right: 0.3em; 
+}
+
+#dk_languages_block ul#dk_languages li.selected_language {
+	float:left;
+	margin-right: 0.3em;
+}

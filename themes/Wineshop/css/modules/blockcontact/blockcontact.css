@@ -1,0 +1,32 @@
+/* block CONTACT ******************************************************************************* */
+#contact_block .block_content {
+	padding:10px 0 15px 0;
+	background: url(images/block_contact_bg.jpg) no-repeat left bottom #F6EAC9
+}
+
+#contact_block p {
+	padding:0 5px 15px 5px;
+	font-size: 13px;
+	line-height: 18px
+}
+#contact_block p.tel {
+	margin:0 0 0 60px;
+	padding-left: 23px;
+	font: bold 11px/20px Arial, Verdana, sans-serif;
+	background: url(images/block_contact_pict_tel.png) no-repeat 0 0 transparent
+}
+#contact_block a {
+	display:block;
+	margin-left:60px;
+	padding:6px 8px;
+	font:bold 10px Arial,Verdana,sans-serif;
+	color:#000;
+	text-transform:uppercase;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background:#none
+}
+#contact_block a:hover {text-decoration:none}
+
+#contact_block .label {display: none}

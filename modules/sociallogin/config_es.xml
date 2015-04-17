@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>sociallogin</name>
+	<displayName><![CDATA[Registrarse con redes sociales]]></displayName>
+	<version><![CDATA[1.0.10]]></version>
+	<description><![CDATA[A&ntilde;ade inicio de sesi&oacute;n con Facebook, Twitter, Google, LinkedIn y Microsoft]]></description>
+	<author><![CDATA[jorgevrgs]]></author>
+	<tab><![CDATA[social_networks]]></tab>
+	<confirmUninstall><![CDATA[¿Está seguro que quiere eliminarlo? Tenga cuidado, todos los datos de configuración se perderán.]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

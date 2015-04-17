@@ -1,0 +1,101 @@
+/*#contentAge{
+	position: fixed;
+   z-index:199;
+   top: 0px;
+   left: 0px;
+   height:100%;
+   width:100%;
+   background-color:#000;
+   color:#FFF !important;
+}
+
+
+
+#contentAge #tableContent{
+	margin:100px auto;	
+	text-align:center;
+	background-color:#000;
+	color:#fff;
+}
+*/
+
+#fancybox-wrap button{
+	background:none;
+	background-color:#CCC;
+	}
+#fancybox-wrap button:hover{
+	background:none;
+	background-color: #FFF;
+	color:#000;
+	}
+#contentAge #tableContent{
+	width:100%;
+}
+#contentAge, #contentAgeTooYoung{
+	width:500px;
+	max-width:100%;
+}
+#contentAge #tableContent label{
+padding: 0 5px 0 5px;
+}
+
+#contentAge button{
+min-width:60px;
+height:40px;
+margin-top:20px;
+padding:5px;
+background-color:#CCC;
+background-image:none;
+}
+#contentAge button:hover{
+
+	background-color:#FFF;
+	background-image:none;
+}
+
+#contentAge .textNote1{
+	text-align:center;
+}
+
+#ageLogo{
+	height:auto;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+#ageLogoIMG{
+	width:100%;
+	max-width:300px;
+}
+.day , .month, .year {float:left;}
+.dateCols{ display:table; margin: 0 auto;}
+
+/*too young style*/
+
+#ageLogoTooYoung{
+	height:auto;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+#contentAgeTooYoung {
+	text-align:center;
+	margin:0 auto;	
+}
+
+#contentAgeTooYoung button{
+min-width:60px;
+height:40px;
+margin-top:20px;
+padding:5px;
+background-color:#CCC;
+background-image:none;
+}
+
+#contentAgeTooYoung button:hover{
+
+	background-color:#FFF;
+	background-image:none;
+}
+
+#YES18, #NO18{ display:block; margin: 0 auto; }

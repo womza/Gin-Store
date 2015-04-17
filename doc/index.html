@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WineShop theme User's Guide</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+<div class="header">
+	<div class="header-inner">
+		<div class="header-logo">logo</div>
+		<div class="header-title"><h1>Theme for PrestaShop - User's Manual. Theme version v.1.4.3</h1></div>
+ 	</div>
+</div>
+<div class="container">
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#Preparation">Preparation</a></li>
+      <li><a href="#Installation">Installation</a></li>
+      <li><a href="#Configuration">Configuration</a></li>
+      <li><a href="#Working_with_modules">Working with modules</a></li>
+      <li><a href="#Translating_the_theme">Translating the theme</a></li>
+      <li><a href="#Working_with_PSD">Working with PSD</a></li>
+      <li><a href="#FAQ">F.A.Q</a></li>
+      <li><a href="#Support_and_Contacts">Support and Contacts</a></li>
+    </ul>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+	  <h2>Dear Customer, </h2>
+	  <p>Thank you for purchasing   this theme. Please, take time to read this User’s Manual. You can use the navigation to the left in order to cycle thru the chapters of this manual.  </p>
+	  <p>If you have any questions that are beyond the scope of this User's Manual file, please feel free to contact us  <a href="#Support_and_Contacts">here</a>.</p>
+	  <h2>Licensing Terms:</h2>
+	  <p>Please be advised, in order to use the theme in a legal manner, you need   to purchase a separate license for each domain/multishop store/installation you are going to use the   theme on. <strong>A single license is limited to a single domain/application/store/installation</strong>. <br />
+      <em>For more information please refer to the <a href="http://www.dreamtheme.eu/content/3-terms-and-conditions-of-use" title="Licensing Terms" target="_blank">Licensing Terms</a> on our website.</em> If you have any questions regarding licensing, please contact us <a href="#Support_and_Contacts" title="Support and Contacts" target="_blank">Here</a>.</p>
+	  <h2>Video Guides</h2>
+	  <p>You can  view short video guides on the links below.</p> 
+    <div class="videoguide"><a href="http://www.youtube.com/watch?v=18sIGAvS9_U" target="_blank"><img src="img/videoguide1.png"/></a></div>
+    <div class="videoguide"><a href="http://youtu.be/khtbyEz0nbU" target="_blank"><img src="img/videoguide2.png"/></a></div>
+  
+    <section id="Preparation">
+      <h1>Preparation</h1>
+    <p> Before you install this theme, you need to have  installation of PrestaShop. If you already installed your PrestaShop, you can skip this step and go directly to <a href="#Installation">installation</a> step.    </p>
+    <h2>Compatibility</h2>
+    <p><strong>PrestaShop compatibility:</strong> This theme is compatible with PrestaShop version: 1.6.0.6 </p>
+    <p><strong>Browser compatibility:</strong> Use at minimum <u>Internet Explorer 9, Firefox 4 or Google Chrome</u>. It is highly recommended to use latest version of your browser.</p>
+    <h2>PrestaShop Requirements</h2>
+    <p>Please make sure your hosting server meets the PrestaShop requirements:</p>
+    <ol>
+      <li><strong>System:</strong> Unix, Linux or Windows. Unix is highly recommended.</li>
+      <li><strong>Web server:</strong> Apache Web server 1.3 or later, Microsoft's IIS Web server 6.0 or later, and nginx 1.0 or later.</li>
+      <li><strong>PHP 5.2</strong> or later.</li>
+      <li><strong>MySQL 5.0</strong> or later.</li>
+      <li>At least 32 Mb of RAM on your server (64 Mb is comfy, the more the better). </li>
+      </ol>
+    <h2>PrestaShop Documentation</h2>
+    <p>You can find full documentation on how to work with PrestaShop CMS at <a href="http://doc.prestashop.com/display/PS15/User+Guide">http://doc.prestashop.com/display/PS15/User+Guide</a>.</p>
+    <h2>PrestaShop Installation</h2>
+    <p><strong>1.</strong> Download a copy of PrestaShop package at <a href="http://www.prestashop.com/en/download">http://www.prestashop.com/en/download</a>.</p>
+    <p><strong>2. </strong>You will need an FTP client, FileZilla is recommended, download it from <a href="https://filezilla-project.org/download.php">https://filezilla-project.org/download.php</a></p>
+    <p><strong>3.</strong> Extract the downloaded PrestaShop files to your local folder, and then upload it to your hosting via the FTP client.</p>
+    <p><strong>4.</strong> Once the files are uploaded, you need to create database on your hosting provider (if you don't know how, ask them to assist you and help you out, this step is very different from hosting to hosting).</p>
+    <p><strong>5.</strong> Open the URL in your browser where you have uploaded the PrestaShop files, for example <u>www.yourdomain.com/prestashop/</u></p>
+    <p><strong>6. </strong>The install process will begin.</p>
+    <p align="center"><img src="img/ps1.png" width="890" height="766" /></p>
+    <p><strong>7.</strong> Choose your language and click <strong>&quot;next&quot;</strong>.</p>
+    <p><strong>8.</strong> On the next page, click <strong>&quot;I agree with the terms</strong>&quot; after you read them and click <strong>&quot;next&quot;</strong>.</p>
+    <p align="center"><img src="img/ps2.jpg" width="674" height="864" /></p>
+    <p><strong>9.</strong> Fill the information about your store, your name, and your login information. Click <strong>&quot;next&quot; </strong>to continue.</p>
+    <p align="center"><img src="img/ps3.png" width="890" height="610" /></p>
+    <p><strong>10. </strong>Fill the information about the created Database from your server, and click the<strong> &quot;test&quot;</strong> button, if everything is correct, you will see a success message. If the test failed, check your database information.</p>
+    <p><strong>11. </strong>Wait the install process to finish, and if everything is correct, you need to delete the <strong>&quot;install&quot;</strong> folder from your FTP folder where you have uploaded the PrestaShop files. </p>
+    <p><strong>12.</strong> Rename the <strong>&quot;Admin&quot;</strong> folder to something else, for security reasons, and remember the folder name, you will use it to access your PrestaShop admin panel, for example http://www.yourdomain.com/prestashop/adminrenamed/ &lt;- this will be your admin access URL.</p>
+    <p>That's it! You are now ready to install the theme on it.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</section>
+    <section id="Installation">
+    <h1>Installation</h1>
+    <p>&nbsp;</p>
+    <div class="warning">Please backup your existing store files and database before installing the theme!</div>
+    <p>&nbsp;</p>
+    <h2>Installation</h2>
+    <p><strong>1.</strong> Open your <u>PrestaShop Back  Office</u> (admin) and in the menu, go to <strong>&ldquo;Preferences&rdquo; </strong>tab and then<strong> &quot;themes&quot;</strong>. </p>
+    <p align="center"><img src="img/ps4.png" width="783" height="609" /></p>
+    <p><strong>2.</strong> In the menu on the right, click <strong>&quot;Add new theme&quot;</strong>. Browse for the <strong> theme archive file</strong>, and click <strong>&quot;Save&quot;</strong>.</p>
+     <p align="center"><img src="img/ps4a.png" width="759" height="298" /></p>
+    <p align="center"><img src="img/ps5.png" width="679" height="522" /></p>
+    <p><strong>3.</strong> Follow the next screen, you should see <strong>&quot;Upload successful&quot;</strong> and the new theme in the options below. Click on the <strong>theme</strong> to select it and click <strong>&quot;Save&quot;</strong>. This would begin the second phase of the installation of the theme.</p>
+    <div class="warning">
+      <p>If you get error uploading at this step, make sure that you have file upload limit increased in your PHP settings or proper permissions. For more info see <a href="#FAQ">F.A.Q section.</a>    </p> </br>
+    </div>
+    <p>&nbsp;</p>
+    <p><strong>4.</strong> On the configuration window, keep the install configuration <strong>as shown</strong> on the picture and click <strong>&quot;Next&quot;</strong>.</p>
+    <p align="center"><img src="img/ps6.png" width="810" height="516" /></p>
+    <p><strong>5. </strong>On the following screen, you should see theme installation process to finish. Click <strong>&quot;Go to the thumbnails regeneration page&quot; </strong>button.</p>
+    <p align="center"><img src="img/ps7.png" width="723" height="519" /></p>
+    <p><strong>6.</strong> On the next page, click the selection of <strong>&quot;Use PNG only if the base image is in PNG format.&quot;</strong>, then click <strong>&quot;Save&quot;</strong> button. After that in the bottom of the page click <strong>&quot;Regenerate Thumbnails&quot;</strong> button.</p>
+    <p align="center"><img src="img/ps8.png" width="870" height="1858" /></p>
+    <div class="info">If your server timeout at this operation, you need to allow your server longer execution times, or regenerate type by type instead of &quot;all&quot;.</div>
+    <p>&nbsp;</p>
+    <p><strong>6.</strong> That's it, your theme is installed now. You have to <strong><a href="#Configuration">configure</a></strong> the theme now. If anything goes wrong during this process see <strong><a href="#FAQ">F.A.Q</a></strong> chapter.</p>
+    <p>&nbsp;</p>
+    <H2>&nbsp;</H2>
+    </section>
+   	<section id="Configuration">
+      <h1>Configuration</h1>
+      
+    <H2>Uploading your logo</H2>
+    <p><strong>1.</strong> To upload your store logo, go to <strong>&quot;Preferences&quot;</strong> in your PrestaShop admins tab, then go to <strong>&quot;Themes&quot;</strong>, under <strong>&quot;Appearance&quot;</strong> select and upload your logo files.</p>
+    <div class="info">Your logo should be transperant in &quot;PNG&quot; format, in order to appear with transperancy of the background.</div>
+    <p align="center"><img src="img/ps9.png" width="634" height="1117" /></p>
+    <p>&nbsp;</p>
+    <H2>Module positions and exceptions</H2>
+    <p>In order to achive the settings shown on our demo page, you need to configure  module positions and exceptions in PrestaShop administration.</p>
+    <p>1. To do so, go to your PrestaShop Admin, click on <strong>&quot;modules&quot; tab</strong>, then click on<strong> &quot;positions&quot;</strong>. Scroll down and find <strong>&quot;displayLeftColumn&quot;</strong>. </p>
+    <p align="center"><img src="img/ps12.png" width="766" height="385" /></p>
+    <p>2. To edit exceptions for the <strong>&quot;Categories block&quot;</strong> for example, click <strong>&quot;Edit&quot;</strong> button next to the block name. Clear all  exceptions as shown on the image below and click <strong>&quot;Save&quot;</strong> button.</p>
+    <p align="center"><img src="img/ps13.png" width="753" height="854" /></p>
+    <p>3. Repeat the above steps for each block and configure it in your taste. You can also change every module position as you like.</p>
+    <p>&nbsp;</p>
+    <H2>Changing footer social icons</H2>
+    <p><strong>1.</strong> To change the footer links and put your Facebook links or copyright info, go to your<strong> theme folder</strong> (for example, go to <strong>themes/WineShop/</strong> folder) and open the file <strong>&quot;footer.tpl&quot;</strong> with notepad or any HTML  editor that you may have.</p>
+    <p><strong>2</strong>. Go to around line 43 of that file and find this code:</p>
+    <p><strong>&quot;&lt;a href=&quot;http://www.facebook.com&quot;&gt;&lt;img src=&quot;{$img_dir}/icon/facebook.png&quot; alt=&quot;Facebook&quot; id=&quot;footer_icons&quot;/&gt;&lt;/a&gt;&amp;nbsp;&quot;</strong></p>
+    <p><strong>3</strong>. And replace the URL <strong>&quot;http://www.facebook.com&quot;</strong> with your Facebook link.  Repeat this step with the other links. Don't forget <strong>&quot;http://&quot;</strong> infront of www links.</p>
+     <p align="center"><img src="img/ps11.png" width="676" height="304" /></p>
+     <p><strong>4. </strong>Save that file, and reapload it, if you don't see the changes, clear the <strong>&quot;PrestaShop cache&quot;</strong> under <strong>&quot;Advanced Parameters -&gt; Performance&quot;</strong> tab.</p>
+    <p>&nbsp;</p>
+    <p>That's it!, You can now advance to the next chapter - Working with modules.</p>
+    <p>&nbsp;</p>
+    </section>
+    <section id="Working_with_modules">
+    <h1>Working with modules</h1>
+    <p>&nbsp;</p>
+    <H2>Working with &quot;DreamSlider&quot; module</H2>
+    <p>In general, the usage with this module is the same as the HomeSlider, native module included in PrestaShop.</p>
+    <p><strong>1.</strong> To configure you  Slider module, go to your Admin, click on the <strong>&quot;Modules&quot;</strong> tab, and in the search field, search for <strong>&quot;Slider&quot;</strong>, select it and under the DreamSlider shown, select <strong>&quot;Configure</strong>&quot;.    </p>
+    <p align="center"><img src="img/ps14.png" width="593" height="162" /></p>
+    <p><strong>2.</strong> To add a new slider image to your slider, click on the <strong>&quot;Add new&quot;</strong> button in the upper left corner. </p>
+   <p align="center"><img src="img/ps15.png" width="626" height="202" /></p>
+    <p><strong>3.</strong> Select your desired image and upload it, fill <u>the title, URL,legend and description fields</u> and click <strong>&quot;Save&quot;.</strong></p>
+    <div class="info">The size of the images for the DreamSlider should be  <u>536x325</u> pixels to be displayed correctly.</div>
+    </p>
+    <p>&nbsp;</p>
+    <div class="info">If you want to add Image for a different language, Click the &quot;Country Flag&quot; icon to change to that language.</div>
+    <p><strong>4.</strong> To delete an image from the slider, simply press the <strong>&quot;Trash Can&quot;</strong> icon. If you want to change the positions, <strong>&quot;Drag and Drop&quot;</strong> the sliders to the desired position.</p>
+    <p align="center"><img src="img/ps16.png" width="626" height="202" /></p>
+    <H2>&nbsp;</H2>
+    <h2>Working with &quot;Featured Products&quot; module</h2>
+    <p>With this module, you can choose how many <strong>&quot;featured&quot;</strong> products to display on the main page.</p>
+    <p><strong>1.</strong> To do so, go to your Admin, click on the <strong>&quot;Modules&quot;</strong> tab, and in the search field, search for <strong>&quot;Featured&quot;</strong>, select <strong>&quot;Featured Products&quot;</strong> and then select <strong>&quot;Configure</strong>&quot;.</p>
+    <p><strong>2.</strong> Select the desired number of products to display and click <strong>&quot;save&quot;</strong>.</p>
+    <div class="info">If your featured products are empty, make sure to assign some products to &quot;home&quot; category in product categories.</div>
+    <h2>&nbsp;</h2>
+    <h2>Working with &quot;Dreamtheme horizontal menu&quot; module</h2>
+    <p>With <strong>&quot;Dreamtheme horizontal menu&quot;</strong> module, you can add/remove or customize the links in the navigation panel on your store. </p>
+    <p><strong>1.</strong> To do so, go to your Admin, click on the <strong>&quot;Modules&quot;</strong> tab, and in the search field, search for <strong>&quot;horizontal&quot;</strong>, select <strong>&quot;Dreamtheme horizontal menu&quot;</strong> and then select <strong>&quot;Configure</strong>&quot;.</p>
+    <p align="center"><img src="img/ps24.png" width="860" height="1070" /></p>
+    <p><strong>2.</strong> In the first part with name <strong>&quot;Settings&quot;</strong> you can select and add predefined links or categories to the left to make it appear into horizontal navigation. When you done, click <strong>&quot;Save&quot;</strong> button.</p>
+    <p><strong>3.</strong> In second the <strong>&quot;Add Menu Top Link&quot;</strong> field, you can add custom links, as shown on the picture. After you create them here you need to add them in the first <strong>&quot;Settings&quot;</strong> field again.</p>
+    <div class="info">With custom links you need to set the link for every language by changing the language flag button.</div>
+    <p><strong>4.</strong> if you don't see the changes, clear the <strong>&quot;PrestaShop cache&quot;</strong> under <strong>&quot;Advanced Parameters -&gt; Performance&quot;</strong> tab.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    </section>
+    <section id="Translating_the_theme">
+    <h1>Translating the theme    </h1>
+    <p><strong>1.</strong> To translate your PrestaShop with particular language,  go to your Admin, click on the <strong>&quot;Localization&quot;</strong> tab, and select <strong>&quot;Localization&quot;</strong> again in the drop-down menu.</p>
+    <p><strong>2.</strong> In the <strong>&quot;Import a localization pack&quot;</strong> field, use the drop-down menu to select your desired language, and click <strong>&quot;Import&quot;</strong> and wait for the process to finish.</p>
+    <p align="center"><img src="img/ps20.png" width="860" height="488" /></p>
+    <p><strong>3.</strong> You language is now imported directly from PrestaShop translations.</p>
+    <h2>Translating missing fields and modules</h2>
+    <p>In some languages or themes, you may have missing fields or fields that you want to change the translation. </p>
+    <p><strong>1.</strong> To do so, go to your Admin, click on the <strong>&quot;Localization&quot;</strong> tab, and select <strong>&quot;Translations&quot;</strong> again in the drop-down menu.</p>
+    <p><strong>2. </strong>Select <strong>&quot;Front office Translations&quot;</strong> or <strong>&quot;Installed modules translations&quot;</strong> from the first field, then select the theme you wish to change translations in this case <strong>&quot;WineShop&quot;</strong> and then click on the flag for the language you wish to change. See picture below:</p>
+    <p align="center"><img src="img/ps21.png" width="860" height="290" /></p>
+    <p><strong>3. </strong>Select the module or field that you with to change translations, and fill the fields or change the existing translation. After you are done with editing, click the button <strong>&quot;Save&quot;.</strong></p>
+    <p align="center"><img src="img/ps22.png" width="860" height="307" /></p>
+    <div class="info">Categories translations are handeled via tha language flag in &quot;Categories&quot; tab.</div>
+    <p>&nbsp;</p>
+    <div class="info">Horizontal menu links translations are handeled via tha &quot;Dream horizontal menu&quot; module. See working with modules.</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    </section>
+    <section id="Working_with_PSD">
+    <h1>Working with PSD</h1>
+    <p>&nbsp; </p>
+    <div class="info">You will need Adobe Photoshop or any other suitable software that can manage PSD file format.</div>
+    <p>&nbsp;</p>
+    <p>In the <u>Assets folder</u> of the archive you will find several files, which can help you to customize your store.    </p>
+    <p><strong>2. WineShop.PSD</strong> - This is the main PSD file for this theme. If you need to customize the theme you can use it to easy your job.</p>
+    <p><strong>3. Logo.PSD</strong> - with this file you can make logo similiar to the demo page.    </p>
+    <p><strong>5. ButtonsSprites.PSD</strong> - with this file you can change easly the color of the theme buttons. You just need to overright the PNG generated with the existing one to change the color.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <section id="FAQ">
+    <h1>Frequently Asked Questions</h1>
+    <p>&nbsp;</p>
+    <p><strong>Q. I can’t install the theme via theme installer from PrestaShop, what should i do?</strong><br />
+      <strong>A.</strong> This is due to low file upload and max execution permissions in your PHP settings. Contact your hosting provider or edit your php.ini and increase max file upload size to at least 20 MB, and also max execution file size. </p>
+    <p><strong>Q. I have edited, modified CSS, TPL or other files, and now I have a problem, what should I do?</strong><br />
+      <strong>A.</strong> You can reinstall your theme and start your modifications again. However edit your theme on a different installation and not on a live store, when you are satisfied with the result, then apply it on your live store.</p>
+    <p><strong>Q. I have edited TPL files or some configuration on the store but i don't see the changes, what should i do?</strong><br />
+      <strong>A. </strong>If you don't see the changes, your most probably see a cached version of your store. To fix this, to to your Admin, in <strong>&quot;Advanced Parameters&quot;</strong> tab then select <strong>&quot;Performance&quot;</strong> tab. Press <strong>&quot;Clear smarty cache &amp; Autioload cache&quot;</strong> button and set <strong>&quot;Template Cache&quot;</strong> to &quot;<strong>Froce compile&quot;</strong> option. After you see your changes return and set template cache again to <strong>&quot;Never recompile template files&quot;.</strong></p>
+    <p><strong>A.</strong> You may also need to clear your browser cache files. </p>
+    <p><strong>Q. Will you help me with custom module, or code on my store?</strong><br />
+      <strong>A.</strong> No! Our support doesn’t cover user’s customizations or modifications or any 3rd party modules or code.</p>
+    <p><strong>Q. Will you help me with native PrestaShop modules configuration or how to work with them?</strong><br />
+      <strong>A.</strong> No! Our support only covers this theme. PrestaShop has their own support, documentation and forums check them out.</p>
+    <p><strong>Q. Can I use this theme for my other store or multi-shop store?</strong><br />
+      <strong>A.</strong> No! A single license is valid for one store, on one domain only. If you want to use it on multi-shop feature from PrestaShop, you need additional license for every store or installation you open.<br />
+    </p>
+    <p>      <strong>Q. PrestaShop has new version, will I get new version of the theme?</strong><br />
+      <strong>A. </strong>There is no guarantee that we will update certain theme with the latest PrestaShop version. This depends mainly on the changes in the new versions of the PrestaShop and other factors. <br />
+      If there is a new version of the theme, you can download it from your dreamtheme.eu/prestashop addons account, or you can contact us at support@dreamtheme.eu providing your order date and name used on the order and we will send to you the new version if available free of charge.<br />
+      </p>
+    <p><strong>Q. How to uninstall and remove this theme?</strong><br />
+      <strong>A. </strong>Go to your PrestaShop administrator, then go to <strong>&quot;Modules&quot;</strong> tap and uninstall the following modules: <u>DreamSlider, Dream Top Menu.</u> After you uninstall them, you also need to delete them by clicking <strong>&quot;delete&quot;</strong> button on every one of this modules. After that you also need to delete <strong>&quot;WineShop&quot;</strong> folder from your PrestaShop installation directory /themes/WineShop.</p>
+    <p><strong>Q. How to update this theme?</strong><br />
+      <strong>A. </strong>Depending on the versions this may vary, however in general, you just need to uninstall your theme first, and then install the new theme again as explain in installation instruction in this manual. To uninstall it, see the above explanation on how to uninstall the theme.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><br />
+    </p>
+    <p><br />
+</p>
+    </section>
+    <section id="Support_and_Contacts">
+    <h1>Support and Contacts    </h1>
+    <p><u>Make sure that you have read the install instructions in this User's Manual.</u><br />
+      If you followed the steps in the User's Manual exactly and you still have problem, please describe your problem as detailed as you can, for example, what exactly did you do, how did you installed and all information that may help us understand your problem, and fill this information below, and send e-mail to <strong>support@dreamtheme.eu</strong></p>
+    <p>Order date, number, name and store:<br />
+      Theme installation URL (domain):<br />
+      How did you install the theme?:<br />
+      Did you install it on a clean version of PrestaShop?:<br />
+      Description of the problem and how the problem occurred (be specific):<br />
+      Screenshots of the problem if available:<br />
+      Version of your PrestaShop:<br />
+      Version of your Theme:<br />
+      Any edits or custom modules that you have made or have:<br />
+      Other:    </p>
+    <div class="info">Please fill all the questions, we need it in order to help you. We won't answer questions without order info.</div>
+    <p>&nbsp;</p>
+    <div class="info">Note that our support works in English language only, so please send us support e-mails in English language.</div>
+    <p>Please be advised that we asume that you can work with computers, your hosting provider and PrestaShop. If you need help with any of that seek help beyond this manual.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    </section>
+  <!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>

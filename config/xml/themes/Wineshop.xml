@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Prestashop -->
+<theme version="1.4.3" name="Wineshop" directory="wineshop">
+  <theme_key>8a0e810adeef6851fba98ad6f254aa8e</theme_key>
+  <author name="Dream Theme" email="support@dreamtheme.eu" url="http://www.dreamtheme.eu"/>
+  <descriptions>
+    <description iso="en">Wineshop theme for PrestaShop</description>
+    <description iso="gb"></description>
+    <description iso="de"></description>
+    <description iso="fr"></description>
+  </descriptions>
+  <variations>
+	 <variation name="Wineshop" directory="Wineshop" responsive="0" default_left_column="1" default_right_column="1" product_per_page="8" from="1.6.0.4" to="1.6.0.6"/>
+  </variations>
+  <docs>
+  </docs>
+    <metas>
+    <meta meta_page="404" left="1" right="1"/>
+    <meta meta_page="address" left="1" right="1"/>
+    <meta meta_page="addresses" left="1" right="1"/>
+    <meta meta_page="authentication" left="1" right="1"/>
+    <meta meta_page="best-sales" left="1" right="1"/>
+    <meta meta_page="cart" left="1" right="1"/>
+    <meta meta_page="category" left="1" right="1"/>
+    <meta meta_page="cms" left="1" right="1"/>
+    <meta meta_page="contact" left="1" right="1"/>
+    <meta meta_page="discount" left="1" right="1"/>
+    <meta meta_page="guest-tracking" left="1" right="1"/>
+    <meta meta_page="history" left="1" right="1"/>
+    <meta meta_page="identity" left="1" right="1"/>
+    <meta meta_page="index" left="1" right="1"/>
+    <meta meta_page="manufacturer" left="1" right="1"/>
+    <meta meta_page="module-bankwire-payment" left="1" right="1"/>
+    <meta meta_page="module-bankwire-validation" left="1" right="1"/>
+    <meta meta_page="module-cheque-payment" left="1" right="1"/>
+    <meta meta_page="module-cheque-validation" left="1" right="1"/>
+    <meta meta_page="my-account" left="1" right="1"/>
+    <meta meta_page="new-products" left="1" right="1"/>
+    <meta meta_page="order" left="1" right="1"/>
+    <meta meta_page="order-confirmation" left="1" right="1"/>
+    <meta meta_page="order-follow" left="1" right="1"/>
+    <meta meta_page="order-opc" left="1" right="1"/>
+    <meta meta_page="order-slip" left="1" right="1"/>
+    <meta meta_page="password" left="1" right="1"/>
+    <meta meta_page="prices-drop" left="1" right="1"/>
+    <meta meta_page="product" left="1" right="1"/>
+    <meta meta_page="products-comparison" left="1" right="1"/>
+    <meta meta_page="search" left="1" right="1"/>
+    <meta meta_page="sitemap" left="1" right="1"/>
+    <meta meta_page="stores" left="1" right="1"/>
+    <meta meta_page="supplier" left="1" right="1"/>
+  </metas>
+  <modules>
+  	<module action="install" name="dreamslider"/>
+    <module action="install" name="dreamtopmenu"/>
+    <module action="enable" name="blockadvertising"/>
+    <module action="enable" name="blockbestsellers"/>
+    <module action="enable" name="blockcart"/>
+    <module action="enable" name="blockcategories"/>
+    <module action="enable" name="blockcms"/>
+    <module action="enable" name="blockcontact"/>
+    <module action="enable" name="blockcurrencies"/>
+    <module action="enable" name="blockcustomerprivacy"/>
+    <module action="enable" name="blocklanguages"/>
+    <module action="enable" name="blockmanufacturer"/>
+    <module action="enable" name="blockmyaccount"/>
+    <module action="enable" name="blockmyaccountfooter"/>
+    <module action="enable" name="blocknewproducts"/>
+    <module action="enable" name="blocknewsletter"/>
+    <module action="enable" name="blockpaymentlogo"/>
+    <module action="enable" name="blocksearch"/>
+    <module action="enable" name="blocksharefb"/>
+    <module action="enable" name="blockspecials"/>
+    <module action="enable" name="blockstore"/>
+    <module action="enable" name="blocksupplier"/>
+    <module action="enable" name="blocktags"/>
+    <module action="enable" name="blockuserinfo"/>
+    <module action="enable" name="blockviewed"/>
+    <module action="enable" name="favoriteproducts"/>
+    <module action="enable" name="feeder"/>
+    <module action="enable" name="homefeatured"/>
+    <module action="enable" name="statsdata"/>
+    <module action="enable" name="editorial"/>
+    <module action="enable" name="productcomments"/>
+    <module action="disable" name="blockcontactinfos"/>
+    <module action="disable" name="blocklayered"/>
+    <module action="disable" name="blocklink"/>
+    <module action="disable" name="blockpermanentlinks"/>
+    <module action="disable" name="blockreinsurance"/>
+    <module action="disable" name="blockrss"/>
+    <module action="disable" name="blocksocial"/>
+    <module action="disable" name="blocktopmenu"/>
+    <module action="disable" name="blockwishlist"/>
+    <module action="disable" name="carriercompare"/>
+    <module action="disable" name="crossselling"/>
+    <module action="disable" name="dateofdelivery"/>
+    <module action="disable" name="followup"/>
+    <module action="disable" name="importerosc"/>
+    <module action="disable" name="loyalty"/>
+    <module action="disable" name="mailalerts"/>
+    <module action="disable" name="newsletter"/>
+    <module action="disable" name="productscategory"/>
+    <module action="disable" name="producttooltip"/>
+    <module action="disable" name="referralprogram"/>
+    <module action="disable" name="sendtoafriend"/>
+    <module action="disable" name="shopimporter"/>
+    <module action="disable" name="trackingfront"/>
+    <module action="disable" name="vatnumber"/>
+    <module action="disable" name="watermark"/>
+	<module action="disable" name="homeslider"/>
+    <hooks>
+	  <hook module="dreamslider" hook="displayHome" position="1"/>
+      <hook module="dreamslider" hook="actionShopDataDuplication" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectSupplierDeleteAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionCategoryUpdate" position="3"/>
+      <hook module="dreamtopmenu" hook="actionObjectCategoryUpdateAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectProductDeleteAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectCmsDeleteAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectManufacturerUpdateAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="displayTop" position="8"/>
+      <hook module="dreamtopmenu" hook="actionObjectSupplierUpdateAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectProductUpdateAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectCategoryDeleteAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectCmsUpdateAfter" position="2"/>
+      <hook module="dreamtopmenu" hook="actionObjectManufacturerDeleteAfter" position="2"/>
+      <hook module="blockbestsellers" hook="displayRightColumn" position="1"/>
+      <hook module="blockbestsellers" hook="actionOrderStatusUpdate" position="1"/>
+      <hook module="blockbestsellers" hook="displayHeader" position="1"/>
+      <hook module="blockcart" hook="displayHeader" position="6"/>
+      <hook module="blockcart" hook="displayLeftColumn" position="2"/>
+      <hook module="blockcategories" hook="actionCategoryAdd" position="1"/>
+      <hook module="blockcategories" hook="actionCategoryDelete" position="1"/>
+      <hook module="blockcategories" hook="actionAdminLanguagesControllerStatusBefore" position="1"/>
+      <hook module="blockcategories" hook="displayHeader" position="9"/>
+      <hook module="blockcategories" hook="actionCategoryUpdate" position="1"/>
+      <hook module="blockcategories" hook="actionAdminMetaControllerUpdate_optionsBefore" position="1"/>
+      <hook module="blockcategories" hook="displayLeftColumn" position="1"/>
+      <hook module="blockcms" hook="displayHeader" position="17"/>
+      <hook module="blockcms" hook="actionShopDataDuplication" position="1"/>
+      <hook module="blockcms" hook="displayLeftColumn" position="6"/>
+      <hook module="blockcms" hook="displayFooter" position="2"/>
+      <hook module="blockcms" hook="displayRightColumn" position="4"/>
+      <hook module="blockcontact" hook="displayHeader" position="5"/>
+      <hook module="blockcontact" hook="displayRightColumn" position="6"/>
+      <hook module="blockcurrencies" hook="displayTop" position="2"/>
+      <hook module="blockcurrencies" hook="displayHeader" position="11"/>
+      <hook module="blockcustomerprivacy" hook="actionBeforeSubmitAccount" position="1"/>
+      <hook module="blockcustomerprivacy" hook="displayCustomerAccountForm" position="1"/>
+      <hook module="blockcustomerprivacy" hook="displayHeader" position="8"/>
+      <hook module="blocklanguages" hook="displayTop" position="1"/>
+      <hook module="blocklanguages" hook="displayHeader" position="15"/>
+      <hook module="blockmanufacturer" hook="displayHeader" position="16"/>
+      <hook module="blockmanufacturer" hook="displayLeftColumn" position="5"/>
+      <hook module="blockmyaccount" hook="displayHeader" position="7"/>
+      <hook module="blockmyaccount" hook="displayLeftColumn" position="3"/>
+      <hook module="blockmyaccountfooter" hook="displayHeader" position="12"/>
+      <hook module="blocknewproducts" hook="displayHeader" position="13"/>
+      <hook module="blocknewproducts" hook="displayRightColumn" position="2"/>
+      <hook module="blocknewsletter" hook="displayHeader" position="23"/>
+      <hook module="blocknewsletter" hook="displayLeftColumn" position="8"/>
+      <hook module="blockpaymentlogo" hook="displayHeader" position="2"/>
+      <hook module="blockpaymentlogo" hook="displayLeftColumn" position="7"/>
+      <hook module="blocksearch" hook="displayHeader" position="20"/>
+      <hook module="blocksearch" hook="displayMobileTopSiteMap" position="1"/>
+      <hook module="blocksearch" hook="displayTop" position="4"/>
+      <hook module="blocksharefb" hook="displayLeftColumnProduct" position="1"/>
+      <hook module="blockspecials" hook="displayRightColumn" position="3"/>
+      <hook module="blockspecials" hook="displayHeader" position="10"/>
+      <hook module="blockstore" hook="displayHeader" position="19"/>
+      <hook module="blockstore" hook="displayRightColumn" position="5"/>
+      <hook module="blocksupplier" hook="displayHeader" position="24"/>
+      <hook module="blocktags" hook="displayLeftColumn" position="9"/>
+      <hook module="blocktags" hook="displayHeader" position="18"/>
+      <hook module="blockuserinfo" hook="displayHeader" position="14"/>
+      <hook module="blockuserinfo" hook="displayTop" position="5"/>
+      <hook module="blockviewed" hook="displayLeftColumn" position="4"/>
+      <hook module="blockviewed" hook="displayHeader" position="4"/>
+      <hook module="favoriteproducts" hook="displayCustomerAccount" position="1"/>
+      <hook module="favoriteproducts" hook="displayMyAccountBlock" position="1"/>
+      <hook module="favoriteproducts" hook="displayHeader" position="21"/>
+      <hook module="favoriteproducts" hook="displayLeftColumnProduct" position="2"/>
+      <hook module="feeder" hook="displayHeader" position="25"/>
+      <hook module="homefeatured" hook="displayHome" position="3"/>
+      <hook module="homefeatured" hook="displayHeader" position="22"/>
+      <hook module="statsdata" hook="actionAuthentication" position="1"/>
+      <hook module="statsdata" hook="actionCustomerAccountAdd" position="1"/>
+      <hook module="statsdata" hook="displayFooter" position="1"/>
+      <hook module="editorial" hook="displayHeader" position="26"/>
+      <hook module="editorial" hook="displayHome" position="2"/>
+      <hook module="productcomments" hook="displayHeader" position="27"/>
+      <hook module="productcomments" hook="displayProductTabContent" position="1"/>
+      <hook module="productcomments" hook="displayProductComparison" position="1"/>
+      <hook module="productcomments" hook="displayProductTab" position="1"/>
+      <hook module="productcomments" hook="actionProductOutOfStock" position="1"/>
+    </hooks>
+  </modules>
+  <images>
+    <image name="small_dm" width="45" height="45" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="medium_dm" width="135" height="135" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="large_dm" width="300" height="300" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+    <image name="thickbox_dm" width="600" height="600" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="category_dm" width="545" height="200" products="false" categories="true" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="home_dm" width="135" height="135" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+    <image name="scene_dm" width="520" height="189" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+    <image name="m_scene_dm" width="161" height="58" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+  </images>
+</theme>

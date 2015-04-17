@@ -1,0 +1,57 @@
+
+Scanning /home/ginstore/public_html/modules/nuevogrutinetimport:
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/XmlStreamer.php'
+# Regular expression match = [decode regex: 1] (md5sum:3d532b87563c99729e247c3ea4c6dce3)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/Xmlfunctions.php'
+# Regular expression match = [decode regex: 1] (md5sum:22c3409121643004f3469806107f34e2)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/configuration.php'
+# Regular expression match = [decode regex: 1] (md5sum:b9903366226cbea5859ec1dd3f6976d4)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/functions.php'
+# Regular expression match = [decode regex: 1] (md5sum:0895b9205ee93bbc550b9ad1f2a157f3)
+# (decoded file [depth: 1]) Regular expression match = [decode regex: 1]
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/index.php'
+# Regular expression match = [decode regex: 1] (md5sum:e0e7a02f9594e15156819f9e9e52634a)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/nuevoGrutinetImportAjax.php'
+# Regular expression match = [decode regex: 1] (md5sum:e1ea1d868332139556081ebd40e23cc5)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/nuevoGrutinetImportCron.php'
+# Regular expression match = [decode regex: 1] (md5sum:7354ee671df3f85c2a498580c6aba22e)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/nuevoGrutinetImportImagenes.php'
+# Regular expression match = [decode regex: 1] (md5sum:5fa77ab9c6b9bb1fb81953a69e7ee73c)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/nuevogrutinetimport.php'
+# Regular expression match = [decode regex: 1] (md5sum:8f02cd848105536bd8f5d98f11f6893f)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/refrescoEstadisticas.php'
+# Regular expression match = [decode regex: 1] (md5sum:cacbd3d3c7177c96bacaa6c1768caa48)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/sql-install.php'
+# Regular expression match = [decode regex: 1] (md5sum:28fb5cff1fc44b084fc6b330b307ffdb)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/sql-unninstall.php'
+# Regular expression match = [decode regex: 1] (md5sum:824ce30b22e01db39227c7deff812de5)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/controllers/admin/AdminNuevoGrutinetController.php'
+# Regular expression match = [decode regex: 1] (md5sum:fd766af70a4004289488e23f1a187483)
+
+'/home/ginstore/public_html/modules/nuevogrutinetimport/import/index.php'
+# Regular expression match = [decode regex: 1] (md5sum:5f64eb25594d2cc7d1432f0c834e4abf)
+
+----------- SCAN SUMMARY -----------
+Scanned directories: 9
+Scanned files: 33
+Ignored items: 0
+Suspicious matches: 15
+Viruses found: 0
+Fingerprint matches: 0
+Data scanned: 0.24 MB
+Scan time/item: 0.027 sec
+Scan time: 1.133 sec
+

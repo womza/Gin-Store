@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_f874bd4a9dc59f3dc6dbe299eaa53dce'] = 'Select which Module Type you want:';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_c21f969b5f03d33d43e04f8f136e7682'] = 'default';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_493229de744b39ad1b4e25efad307345'] = 'light (no birthdate check)';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_06933067aafd48425d67bcb01bba5cb6'] = 'Update';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_1c0be4590d36d26c760d3e2e55db13b3'] = 'Sorry you are too young to visit our Page.';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_45576037b0c02f1e118ae3ad0bfd77cf'] = 'GO back to your previous page';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_b6eb8c275e6a1e59ef59d43a89dc13ce'] = 'You must be at least 18 to enter';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_c3f30a7bde0aae8d972f80b6ce76a9fe'] = 'Please verify your age.';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_4cdfafeab2302f49bf5d17112f5745ea'] = 'Day:';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_01411a97818b38fc6524d56590ca5a12'] = 'Month:';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_86f5978d9b80124f509bdb71786e929e'] = 'January';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_659e59f062c75f81259d22786d6c44aa'] = 'February';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_fa3e5edac607a88d8fd7ecb9d6d67424'] = 'March';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_3fcf026bbfffb63fb24b8de9d0446949'] = 'April';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_195fbb57ffe7449796d23466085ce6d8'] = 'May';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_688937ccaf2a2b0c45a1c9bbba09698d'] = 'June';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_1b539f6f34e8503c97f6d3421346b63c'] = 'July';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_41ba70891fb6f39327d8ccb9b1dafb84'] = 'August';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_cc5d90569e1c8313c2b1c2aab1401174'] = 'September';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_eca60ae8611369fe28a02e2ab8c5d12e'] = 'October';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_7e823b37564da492ca1629b4732289a8'] = 'November';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_82331503174acbae012b2004f6431fa5'] = 'December';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_06f8972cf68b453f544f3dfa58cf0e19'] = 'Year:';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_331b3100a485d8cacff1d3df8e9b0c13'] = 'ENTER';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_light_1c0be4590d36d26c760d3e2e55db13b3'] = 'Sorry you are too young to visit our Page.';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_light_45576037b0c02f1e118ae3ad0bfd77cf'] = 'GO back to your previous page';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_light_f4fa4238e8a6ed8216413f1d791fcb03'] = 'You must be at least 18 to enter our Page.';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_light_a52945dbe283de2f7e9d63ca3417f36a'] = 'Leave';
+$_MODULE['<{ageverifyer}prestashop>ageverifyer_light_331b3100a485d8cacff1d3df8e9b0c13'] = 'ENTER';

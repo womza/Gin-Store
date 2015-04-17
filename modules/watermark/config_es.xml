@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>watermark</name>
+	<displayName><![CDATA[Marca de agua]]></displayName>
+	<version><![CDATA[1.0.2]]></version>
+	<description><![CDATA[Proteja la imagen por una marca de agua.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[¿Está seguro de querer eliminar sus detalles?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
