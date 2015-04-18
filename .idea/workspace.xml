@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1307b7e9-04b2-4ce3-bbc7-69e8992198ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/paypal/js/paypal_login.js" afterPath="$PROJECT_DIR$/modules/paypal/js/paypal_login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/front/ContactController.php" afterPath="$PROJECT_DIR$/controllers/front/ContactController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/override/controllers/front/ContactController.php" afterPath="$PROJECT_DIR$/override/controllers/front/ContactController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ginstore.es.iws" />
@@ -29,32 +29,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="authentication.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/wineshop/authentication.tpl">
+      <file leaf-file-name="contact-form.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wineshop/contact-form.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41025642" vertical-offset="1648" max-vertical-offset="23856">
-              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+            <state vertical-scroll-proportion="-13.52" vertical-offset="1678" max-vertical-offset="2224">
+              <caret line="126" column="50" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paypal_login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/paypal/js/paypal_login.js">
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/override/controllers/front/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.20512821" vertical-offset="448" max-vertical-offset="3440">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="e#7#90#0#PHP" expanded="true" />
+                <marker date="1429385420113" expanded="true" signature="3626:3878" placeholder="SELECT cm.id..." />
+                <marker date="1429385420113" expanded="true" signature="4148:4568" placeholder="SELECT cm.id..." />
+                <marker date="1429385420113" expanded="true" signature="5653:5976" placeholder="SELECT cm.me..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/wineshop/header.tpl">
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/front/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.08" vertical-offset="2590" max-vertical-offset="3152">
-              <caret line="187" column="30" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="42" />
-              <folding />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="288" max-vertical-offset="4688">
+              <caret line="41" column="128" selection-start-line="41" selection-start-column="128" selection-end-line="41" selection-end-column="128" />
+              <folding>
+                <marker date="1429384280689" expanded="true" signature="2897:3131" placeholder="SELECT cm.id..." />
+                <marker date="1429384280689" expanded="true" signature="3310:3660" placeholder="SELECT cm.id..." />
+                <marker date="1429384280689" expanded="true" signature="4377:4680" placeholder="SELECT cm.me..." />
+                <marker date="1429384280689" expanded="true" signature="9826:10035" placeholder="SELECT cm.* ..." />
+                <marker date="1429384280689" expanded="true" signature="10829:10953" placeholder="SELECT id_or..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +81,8 @@
         <option value="$PROJECT_DIR$/themes/wineshop/header.tpl" />
         <option value="$PROJECT_DIR$/modules/paypal/js/paypal_login.js" />
         <option value="$PROJECT_DIR$/themes/wineshop/authentication.tpl" />
+        <option value="$PROJECT_DIR$/controllers/front/ContactController.php" />
+        <option value="$PROJECT_DIR$/override/controllers/front/ContactController.php" />
       </list>
     </option>
   </component>
@@ -157,6 +170,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ginstore.es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -213,7 +312,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -292,27 +391,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wineshop/header.tpl">
+    <entry file="file://$PROJECT_DIR$/themes/wineshop/authentication.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.08" vertical-offset="2590" max-vertical-offset="3152">
-          <caret line="187" column="30" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.41025642" vertical-offset="1648" max-vertical-offset="23856">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/paypal/js/paypal_login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+        <state vertical-scroll-proportion="0.7285464" vertical-offset="0" max-vertical-offset="816">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wineshop/authentication.tpl">
+    <entry file="file://$PROJECT_DIR$/themes/wineshop/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41025642" vertical-offset="1648" max-vertical-offset="23856">
-          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.73626375" vertical-offset="2590" max-vertical-offset="3152">
+          <caret line="187" column="30" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wineshop/contact-form.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.52" vertical-offset="1678" max-vertical-offset="2224">
+          <caret line="126" column="50" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="288" max-vertical-offset="4688">
+          <caret line="41" column="128" selection-start-line="41" selection-start-column="128" selection-end-line="41" selection-end-column="128" />
+          <folding>
+            <marker date="1429384280689" expanded="true" signature="2897:3131" placeholder="SELECT cm.id..." />
+            <marker date="1429384280689" expanded="true" signature="3310:3660" placeholder="SELECT cm.id..." />
+            <marker date="1429384280689" expanded="true" signature="4377:4680" placeholder="SELECT cm.me..." />
+            <marker date="1429384280689" expanded="true" signature="9826:10035" placeholder="SELECT cm.* ..." />
+            <marker date="1429384280689" expanded="true" signature="10829:10953" placeholder="SELECT id_or..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/controllers/front/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20512821" vertical-offset="448" max-vertical-offset="3440">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#7#90#0#PHP" expanded="true" />
+            <marker date="1429385420113" expanded="true" signature="3626:3878" placeholder="SELECT cm.id..." />
+            <marker date="1429385420113" expanded="true" signature="4148:4568" placeholder="SELECT cm.id..." />
+            <marker date="1429385420113" expanded="true" signature="5653:5976" placeholder="SELECT cm.me..." />
+          </folding>
         </state>
       </provider>
     </entry>

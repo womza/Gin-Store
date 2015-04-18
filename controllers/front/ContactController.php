@@ -40,13 +40,10 @@ class ContactControllerCore extends FrontController
 			$extension = array('.txt', '.rtf', '.doc', '.docx', '.pdf', '.zip', '.png', '.jpeg', '.gif', '.jpg');
 			$file_attachment = Tools::fileAttachment('fileUpload');
 			$message = Tools::getValue('message'); // Html entities is not usefull, iscleanHtml check there is no bad html tags.
-			session_start();
-if ($_SESSION['captcha'] != $_POST['captcha'])            
-    $this->errors[] = Tools::displayError('Error en captcha.');
-elseif (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
-    $this->errors[] = Tools::displayError('Invalid email address.');
+            if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
+                $this->errors[] = Tools::displayError('Invalid email address.');
 			elseif (!$message)
-                                $this->errors[] = Tools::displayError('The message cannot be blank.');
+                $this->errors[] = Tools::displayError('The message cannot be blank.');
 			elseif (!Validate::isCleanHtml($message))
 				$this->errors[] = Tools::displayError('Invalid message');
 			elseif (!($id_contact = (int)Tools::getValue('id_contact')) || !(Validate::isLoadedObject($contact = new Contact($id_contact, $this->context->language->id))))

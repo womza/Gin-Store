@@ -33,7 +33,10 @@ class ContactController extends ContactControllerCore
             $extension = array('.txt', '.rtf', '.doc', '.docx', '.pdf', '.zip', '.png', '.jpeg', '.gif', '.jpg');
             $fileAttachment = Tools::fileAttachment('fileUpload');
             $message = Tools::getValue('message'); // Html entities is not usefull, iscleanHtml check there is no bad html tags.
-            if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
+            session_start();
+            if (strtolower($_SESSION['captcha']) != $_POST['captcha'])
+                $this->errors[] = Tools::displayError('Error en captcha.');
+            else if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
                 $this->errors[] = Tools::displayError('Invalid email address.');
             else if (!$message)
                 $this->errors[] = Tools::displayError('The message cannot be blank.');
@@ -49,7 +52,7 @@ class ContactController extends ContactControllerCore
             /*
              * Validación de captcha
              */
-            $challenge = Tools::getValue('recaptcha_challenge_field');
+            /*$challenge = Tools::getValue('recaptcha_challenge_field');
             $respuesta = Tools::getValue('recaptcha_response_field');
             
             $privatekey = Configuration::get('reCaptcha_private_key');
@@ -59,7 +62,7 @@ class ContactController extends ContactControllerCore
             if (!$resp->is_valid) {
                 // What happens when the CAPTCHA was entered incorrectly
                 $this->errors[] = Tools::displayError("El captcha no se ha introducido correctamente. Por favor, pruebe de nuevo");
-            }
+            }*/
             
             
             if (count($this->errors) === 0) {
