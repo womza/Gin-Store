@@ -1,14 +1,15 @@
 $(function(){ldelim}
 	if($("#create-account_form").length > 0)
 		{if $smarty.const._PS_VERSION_ >= 1.6}
-			$("#create-account_form").parent().before('<div id="buttonPaypalLogin1"></div>');
+			//$("#create-account_form").parent().before('<div id="buttonPaypalLogin1"></div>');
+			$("#prepend-html").append('<div id="buttonPaypalLogin1"></div>');
 		{else}
 			$("#create-account_form").before('<div id="buttonPaypalLogin1"></div>');
 		{/if}
 	else
 	{ldelim}
 		{if $smarty.const._PS_VERSION_ >= 1.6}
-			$("#login_form").parent().before('<div id="buttonPaypalLogin1"></div>');
+			$(".page-subheading").parent().before('<div id="buttonPaypalLogin1"></div>');
 		{else}
 			$("#login_form").before('<div id="buttonPaypalLogin1"></div>');
 		{/if}
@@ -22,7 +23,8 @@ $(function(){ldelim}
 		"clear"       : "both",
 		'margin-bottom' : '10px',
 		{if $smarty.const._PS_VERSION_ >= 1.6}
-		'margin-left' : '20px',
+		//'margin-left' : '20px',
+		'margin-top' : '10px',
 		'width' : '100%'
 		{/if}	
 	{rdelim});
