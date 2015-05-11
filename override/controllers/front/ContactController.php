@@ -34,7 +34,7 @@ class ContactController extends ContactControllerCore
             $fileAttachment = Tools::fileAttachment('fileUpload');
             $message = Tools::getValue('message'); // Html entities is not usefull, iscleanHtml check there is no bad html tags.
             session_start();
-            if (strtolower($_SESSION['captcha']) != $_POST['captcha'])
+            if (strtolower($_SESSION['captcha']) != strtolower($_POST['captcha']))
                 $this->errors[] = Tools::displayError('Error en captcha.');
             else if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from))
                 $this->errors[] = Tools::displayError('Invalid email address.');
